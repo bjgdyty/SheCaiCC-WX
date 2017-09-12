@@ -1,0 +1,11 @@
+<template name="footer1">
+
+This is footer 1
+
+</template>
+
+<template name="footer2">
+
+This is footer 2 - {{text}}
+
+</template>

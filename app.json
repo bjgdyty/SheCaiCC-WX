@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/firstPage/first",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test"
+  ],
+
+
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "社彩CC",
+    "navigationBarTextStyle":"white"
+   
+  },
+
+
+"tabBar": {
+
+  "list": [{
+    "pagePath": "pages/index/index",
+    "iconPath": "images/icon1.png",
+    "selectedIconPath": "images/icon1s.png",
+    "text": "首页"
+  }, {
+    "pagePath": "pages/firstPage/first",
+    "iconPath": "images/icon2.png",
+    "selectedIconPath": "images/icon2s.png",
+    "text": "列表"
+  }, {
+    "pagePath": "pages/logs/logs",
+    "iconPath": "images/icon2.png",
+    "selectedIconPath": "images/icon2s.png",
+    "text": "消息"
+  }, 
+  {
+    "pagePath": "pages/test/test",
+    "iconPath": "images/icon2.png",
+    "selectedIconPath": "images/icon2s.png",
+    "text": "个人中心"
+  }]
+},
+
+"networkTimeout": {
+  "request": 10000,
+  "downloadFile": 10000
+},
+
+"debug": false
+
+  
+}

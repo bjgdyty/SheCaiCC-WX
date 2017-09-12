@@ -1,0 +1,60 @@
+<view class="container">
+
+  <view class="selection">
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="2000" duration="500">
+    <block wx:for="{{imgUrls}}" wx:key="*this">
+      <swiper-item>
+       <image src="{{item}}" class="slide-image" width="100%" height="100%" mode: scaleToFill/>
+      </swiper-item>
+     </block>
+    </swiper>
+  </view>
+
+ 
+
+  <view class="selection">
+    <view class="header">
+      <text>优秀社团</text>
+      <text class="text-all">社团列表</text>
+    </view>
+
+    <view class="content"> 
+      <view class="content-item" wx:for= "{{contentItems}}">
+        <image src="{{item}}" />
+        <view class="content-item-text">
+          <text>{{contentNames[index]}}</text>
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+  <view class="selection">
+    <view class="header">
+      <text>热门活动</text>
+      <text class="text-all">全部活动</text>
+    </view>
+  </view>
+
+  <view class="list-item" wx:for="{{listItems}}">
+    <view class="list-item-images">
+      <image src="{{item}}" class="list-item-images-img" mode="aspectFill" />
+      <image src="/images/avatar.png" class="avatar"/>
+    </view>
+
+    <view class="list-item-text">
+
+      <view class="list-item-text-title">
+        <text>{{titles[index]}}</text>
+      </view>
+
+      <view class="list-item-text-content">
+        <text>{{essays[index]}}</text>
+      </view>
+
+
+    </view>
+
+  </view>
+
+</view>
