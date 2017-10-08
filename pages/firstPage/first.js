@@ -9,7 +9,7 @@ Page({
       '/images/足球社.jpg',
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
-    contentItems: ['/images/跑酷社.jpg', '/images/PMC.png', '/images/峻野.jpg', '/images/武术社.jpg'],
+    contentItems: ['/images/跑酷社.jpg', '/images/PMC.jpg', '/images/峻野.jpg', '/images/武术社.jpg'],
     contentNames: ['跑酷社', 'PMC音乐社', '峻野登山社', '武术社'],
     listItems: ['/images/社联1.jpg', '/images/瘫.jpg', '/images/社联3.jpg', '/images/社联B.jpg'],
     titles: ['百团大战', '怎能一个“瘫”字了得！', '新生游园', '社联迎新'],
